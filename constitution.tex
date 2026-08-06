@@ -1,0 +1,349 @@
+\documentclass[12pt,letterpaper]{article} % Article class, 12pt font, US Letter
+
+\usepackage[english]{babel}         % English hyphenation and typographic rules
+\usepackage[margin=2.5cm]{geometry} % Uniform 2.5cm page margins
+\usepackage[T1]{fontenc}            % Proper font encoding for character rendering
+\usepackage{hyperref}               % Hyperlinks for the table of contents and URLs
+\usepackage{xcolor}                 % Color support (used by hyperref)
+\usepackage{setspace}               % Line spacing control
+\usepackage{enumitem}               % Custom list labels for subsections (a, b, i, ii)
+\usepackage{titlesec}               % Lets us rename section levels as Articles/Sections
+\usepackage{tocloft}                % Control over the table of contents layout
+
+\setstretch{1.5}                    % 1.5 line spacing
+
+\hypersetup{                        % Hyperlink appearance
+  colorlinks=true,
+  linkcolor={blue},
+  urlcolor={blue}}
+
+% \section  -> Article
+% \subsection -> Section
+\renewcommand{\thesection}{\Roman{section}}        % Articles are I, II, III
+\renewcommand{\thesubsection}{\arabic{subsection}} % Sections are 1, 2, 3 within each article
+\titleformat{\section}{\normalfont\large\bfseries}{Article \thesection\ --}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{Section \thesubsection\ --}{0.5em}{}
+\titleformat{\subsubsection}[runin]{\normalfont\itshape}{}{0em}{}
+
+% Table of contents: label the entries the same way the headings do.
+% The widths must fit the longest label, "Article XIII" and "Section 1".
+\setcounter{tocdepth}{2}
+\renewcommand{\cftsecpresnum}{Article~}
+\setlength{\cftsecnumwidth}{7.5em}
+\renewcommand{\cftsubsecpresnum}{Section~}
+\setlength{\cftsubsecnumwidth}{5em}
+\setlength{\cftsubsecindent}{7.5em}
+
+% List styles for the (a) and (i) sub-levels
+\newlist{alphalist}{enumerate}{1}
+\setlist[alphalist]{label=\alph*., leftmargin=2em}
+\newlist{romanlist}{enumerate}{1}
+\setlist[romanlist]{label=\roman*., leftmargin=3em}
+
+% Shorthand for the club's name throughout the document
+\newcommand{\org}{Software Acceleration Team}
+\newcommand{\orgshort}{SwAT}
+
+% Cross-document references.
+% LaTeX cannot resolve \ref into a separate document, so bylaws numbering is
+% written by hand HERE AND NOWHERE ELSE. Update this if the bylaws are renumbered.
+\newcommand{\bylawsGoodStanding}{Article II, Section 1}
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Constitution of the \org}\\[0.5em]
+  {\large Kennesaw State University}
+\end{center}
+
+\vspace{1em}
+
+\tableofcontents
+\vspace{1em}
+
+% ==============================================================================
+\section{Name}\label{art:name} % Required
+\subsection{Organization Name}\label{sec:org-name}
+The name of this organization shall be the \org, hereafter referred to in this document as
+\orgshort.
+
+% ==============================================================================
+\section{Purpose or Mission Statement}\label{art:purpose} % Required
+\subsection{Mission and Objectives}\label{sec:mission}
+The purpose of this organization shall be to give students in computing and related fields
+(including computer science, software engineering, cybersecurity, game design, and quantitative
+finance) a space to gain practical, real-world engineering experience beyond the classroom.
+\orgshort\ exists to:
+\begin{alphalist}
+  \item organize ongoing, longer-form team projects in which members practice professional
+  software engineering workflows, including version control, code review, DevOps practices,
+  and technical documentation;
+  \item develop members into strong candidates for competitive roles through regular
+  presentations in which they explain and defend their technical decisions: languages,
+  architecture, tools, libraries, version control practices, and results;
+  \item educate members through knowledge sessions on tools, libraries, platforms, and
+  emerging technologies; and
+  \item connect members with industry and with other Kennesaw State University organizations
+  through real projects, partnerships, and client work.
+\end{alphalist}
+
+% ==============================================================================
+\section{Affiliations}\label{art:affiliations} % Required
+\subsection{Kennesaw State University}\label{sec:ksu-affiliation} % Include verbatim
+\begin{romanlist}
+  \item This organization is a Registered Student Organization (RSO) at Kennesaw State
+  University, but is not part of the University itself.
+  \item In all correspondence and publications, it may refer to itself as an organization at
+  Kennesaw State University, but not as part of Kennesaw State University itself.
+  \item \org\ accepts full financial and production responsibility for all activities
+  it sponsors.
+  \item \org\ agrees to abide by all pertinent Kennesaw State University policies and
+  regulations, including the most current RSO Manual and Student Codes of Conduct.
+  Where Kennesaw State University policies and regulations and those of \orgshort\ differ,
+  the policies and regulations of Kennesaw State University will take precedence.
+  \item \org\ recognizes and understands that the University assumes no legal liability
+  for the actions of the organization.
+\end{romanlist}
+\subsection{External Affiliations}\label{sec:external-affiliation}
+\orgshort\ is not currently affiliated with any state or national non-student entity.
+
+% ==============================================================================
+\section{Membership}\label{art:membership} % Required
+\subsection{Eligibility}\label{sec:eligibility}
+This organization is open to all KSU students, regardless of major, who are in good standing
+with the University, as that term is defined in \bylawsGoodStanding\ of the bylaws.
+Students must be enrolled in at least one (1) credit hour
+at Kennesaw State University to be considered a member.
+Non-KSU students may participate in and be affiliated with the organization,
+but will not be recognized as full members with voting rights.
+\subsection{Active Membership}\label{sec:active-membership}
+Active members of \orgshort\ are required, each semester, to attend at least fifty percent
+(50\%) of general meetings and to either contribute to an active project team or deliver
+at least one presentation or knowledge session. \orgshort\ does not charge membership dues.
+\subsection{Privileges and Voting}\label{sec:privileges}
+Active members are entitled to vote in elections and on organization business, to hold officer
+positions, to serve on and lead committees, to join and lead project teams, and to access
+organization resources and events.
+Each member has one vote, no matter how many officer, committee, or project roles the member
+holds. A candidate for office may vote in their own election.
+\subsection{Removal of Members}\label{sec:member-removal}
+A member may be removed for conduct that materially harms the organization or for repeated
+failure to meet the responsibilities of membership. Removal requires written notice to the
+member, an opportunity for the member to respond before the Executive Board, and a two-thirds
+(2/3) vote of the Executive Board. A removed member may appeal to the general membership,
+where a majority vote of active members present, quorum having been established, is final.
+\subsection{Alumni}\label{sec:alumni}
+Alumni of \orgshort\ are former active members who have graduated from Kennesaw State
+University. Alumni may continue to participate in organization events and activities, but do
+not have voting rights or officer eligibility. They are encouraged to mentor current members,
+to serve on Defended Review panels, and to connect members with industry.
+
+\bigskip
+\noindent\textit{"Please note that RSOs cannot hold members accountable to the Student Codes
+of Conduct, Title IX, or any other campus policies. Any such incidents shall be reported to
+the appropriate University entity so that the appropriate adjudication process may occur."}
+
+% ==============================================================================
+\section{Officers or Executive Board}\label{art:officers} % Required
+\subsection{Officers and Duties}\label{sec:officer-duties}
+The officers of this organization, who together constitute the Executive Board, shall be
+the President, Vice President, Treasurer, Secretary, Director of Projects,
+and Director of Outreach.
+\begin{alphalist}
+  \item \textbf{President.} The President shall be responsible for leading all organization
+  meetings, monitoring the performance of all other officers, representing the organization
+  to the University and external parties, and serving as the chief executive officer.
+  The President shall be listed as President in Owl Life.
+  \item \textbf{Vice President.} The Vice President shall assume all responsibilities of
+  the President in the case of the President's absence, shall assist the President in the
+  performance of their duties, and shall serve as the Reservation Delegate for the
+  organization in Owl Life, with authority to make space reservations on behalf of the
+  organization.
+  \item \textbf{Treasurer.} The Treasurer shall be responsible for all financial activity
+  of the organization, including maintaining an accurate balance of the organization's
+  finances, managing any budget or funding, and serving as a fiduciary for the organization.
+  The Treasurer shall be listed as Treasurer in Owl Life.
+  \item \textbf{Secretary.} The Secretary shall be responsible for taking minutes at all
+  organization meetings, dispatching official correspondence, notifying members of meetings,
+  and maintaining organization documents, records, and communication channels.
+  \item \textbf{Director of Projects.} The Director of Projects shall oversee the project
+  lifecycle (pitch, scoping, build sprints, defended review, and retrospective), shall
+  appoint and support project leads, and shall maintain the organization's engineering
+  standards, including repositories, documentation, and version control practices.
+  \item \textbf{Director of Outreach.} The Director of Outreach shall develop and manage
+  relationships with industry partners and with other Kennesaw State University
+  organizations, shall coordinate guest reviewers and external clients, and shall manage
+  external-facing communication in coordination with the Secretary.
+\end{alphalist}
+\subsection{Eligibility and Concurrent Roles}\label{sec:officer-eligibility}
+To be eligible to run for office, a candidate must have been an active member of the
+organization for at least one (1) semester prior to the election and must be in good
+standing with the University.
+A member may hold more than one officer position, and may hold officer, committee, and project
+roles at the same time. The offices of President and Treasurer shall not be held by the same
+member. The Executive Board shall include at least four (4) distinct members.
+\subsection{Terms}\label{sec:officer-terms}
+Officers shall serve a term of one (1) year, beginning at the formal transition of officers
+following elections. Elections shall be held before the expiration of the current officers'
+terms so that a transition period is preserved.
+\subsection{Removal of Officers}\label{sec:officer-removal}
+An officer may be removed for failure to perform the duties of their office or for
+conduct that materially harms the organization. Removal requires a petition signed by at
+least one-third (1/3) of active members or a motion by the Executive Board, written notice
+to the officer, an opportunity for the officer to respond, and a two-thirds (2/3) vote of
+the active members present, quorum having been established.
+
+% ==============================================================================
+\section{Elections}\label{art:elections} % Required
+\subsection{Timeline}\label{sec:election-timeline}
+Election of officers shall be held annually in April. The Secretary shall announce the
+election, the call for candidates, and the slate of candidates to the membership at least two
+(2) weeks in advance. Results shall be announced at the conclusion of the election meeting,
+and the formal transition of officers shall be completed within two (2) weeks of the election.
+This process shall be democratic, as required by the RSO Manual.
+\subsection{Vacancies}\label{sec:vacancies}
+Should an office become vacant mid-term, the Executive Board shall appoint an interim officer,
+subject to ratification by a majority vote of active members present at the next regular
+meeting. A vacancy in the office of President shall be filled by the Vice President for the
+remainder of the term.
+\subsection{Voting Procedures}\label{sec:voting-procedures}
+Elections shall be conducted by secret ballot. A candidate shall be elected by a simple
+majority of active members voting. If no candidate for an office receives a majority, a runoff
+shall be held between the two candidates receiving the most votes.
+
+% ==============================================================================
+\section{Meetings}\label{art:meetings}
+\subsection{Schedule and Notice}\label{sec:meeting-schedule}
+Regular meetings shall be held weekly during the fall and spring semesters. The President,
+or a majority of the Executive Board, may call a special meeting. The Secretary shall publish
+the regular meeting schedule at the start of each semester and shall notify members of any
+special meeting, via e-mail, no later than five (5) business days in advance of the meeting.
+\subsection{Quorum}\label{sec:quorum}
+Quorum shall consist of a majority (more than fifty percent) of active voting members and must
+be present to conduct the business of the organization.
+\subsection{Governing Rules}\label{sec:governing-rules}
+The most recent edition of \textit{Robert's Rules of Order} shall govern the meetings of this
+organization within the requirements of this constitution and any bylaws adopted by the
+membership.
+
+% ==============================================================================
+\section{Advisors}\label{art:advisors} % Required
+\subsection{Responsibilities}\label{sec:advisor-responsibilities}
+There shall be at least one (1) full-time Kennesaw State University faculty or staff member
+who shall serve as an advisor to the organization. The advisor shall provide guidance and
+institutional continuity, assist with required University paperwork, and attend meetings
+and events when able. Consistent with the RSO Manual, the advisor serves as a guide and
+may not make decisions on behalf of the organization.
+\subsection{Selection and Term}\label{sec:advisor-selection}
+The advisor shall be selected by the Executive Board and confirmed annually by a majority
+vote of active members. Should a change of advisor become necessary, a new advisor may be
+appointed by the same process.
+
+% ==============================================================================
+\section{Committees}\label{art:committees} % if applicable
+\subsection{Standing Committees}\label{sec:standing-committees}
+The organization may establish standing committees to carry out its work, including but
+not limited to a Projects Committee, an Outreach Committee, and an Events Committee.
+Each committee shall operate under the direction of the relevant officer and shall report
+to the Executive Board.
+\subsection{Committee Membership}\label{sec:committee-membership}
+Committee members shall be appointed by the officer responsible for that committee,
+with the approval of the Executive Board, or active members may volunteer to serve.
+All active members are encouraged to serve on at least one committee.
+
+% ==============================================================================
+\section{Finances}\label{art:finances} % if applicable
+\subsection{Dues}\label{sec:dues}
+The organization shall not collect mandatory membership dues. Funding may instead be
+sought through University allocations, sponsorships, and fundraising activities consistent
+with University policy.
+\subsection{Accounting}\label{sec:accounting}
+The Treasurer shall maintain accurate records of all funds received and expended and shall
+report the organization's financial status to the membership upon request. All expenditures
+shall be reviewed by the Executive Board, and financial records shall be available to the
+advisor to ensure transparency and accountability.
+
+% ==============================================================================
+\section{Intellectual Property}\label{art:ip} % if applicable
+\subsection{Ownership}\label{sec:ip-ownership}
+Members retain full ownership of the intellectual property they create, including all
+copyright, patent, and licensing rights. \orgshort\ claims no ownership of any work created by
+its members. Where a work has multiple contributors, those contributors hold it jointly and
+are responsible for settling ownership, licensing, and any proceeds among themselves.
+\subsection{License to \orgshort}\label{sec:ip-license}
+As a condition of participating in a \orgshort\ project team, each contributor grants
+\orgshort\ a non-exclusive, perpetual, irrevocable, royalty-free, worldwide license to host,
+use, reproduce, modify, maintain, continue, display, and distribute their contributions to
+that project, and to use the project and the contributor's name in demonstrations,
+presentations, recruiting, and promotional material. This license is not a transfer of
+ownership. It exists so that the organization can keep a project alive after its original
+contributors graduate or move on.
+\subsection{Custody of Repositories}\label{sec:ip-custody}
+Project repositories shall be hosted in an organization-controlled account. \orgshort\ shall
+maintain administrative control of those repositories so that no single member may
+unilaterally delete a project, make it private, or transfer it out of the organization.
+Deletion, transfer, or restriction of a project repository requires the review of a panel as
+defined in the bylaws.
+\subsection{Right to Fork and Leave}\label{sec:ip-fork}
+Any contributor may fork, clone, republish, relicense their own contributions, or
+commercialize a \orgshort\ project at any time, without the permission of \orgshort\ and
+without any fee, buyout, royalty, or revenue share owed to \orgshort. \orgshort\ shall not
+condition membership, advancement, or access to organization resources on the surrender of a
+member's intellectual property.
+\subsection{Client Work and University Policy}\label{sec:ip-client}
+Work performed for an external client or sponsor is governed by a written agreement reviewed by
+the advisor before work begins, and the terms of that agreement supersede Sections
+\ref{sec:ip-ownership} through \ref{sec:ip-fork} for that project. Nothing in this Article
+shall be construed to override the intellectual property policies of Kennesaw State University
+or the Board of Regents of the University System of Georgia, which take precedence where they
+apply.
+
+% ==============================================================================
+\section{Constitutional Amendments}\label{art:amendments} % Required
+\subsection{Amendment Process}\label{sec:amendment-process}
+This constitution may be amended by a two-thirds (2/3) vote of the active members
+present at any regular meeting of the organization, quorum having been established.
+Proposed amendments must be submitted in writing and distributed to the membership at
+least one (1) regular meeting in advance of the vote. Amendments take effect immediately
+upon passage unless the amendment specifies otherwise.
+
+% ==============================================================================
+\section{Non-Discrimination Policy}\label{art:non-discrimination} % Required -- verbatim
+\subsection{Statement}\label{sec:non-discrimination-statement}
+Membership and all privileges, including voting and officer positions, must be extended
+to all students without regard to race, color, sex, sexual orientation, gender identity,
+gender expression, ethnicity or national origin, religion, age, genetic information,
+disability, or veteran status. Membership and all privileges, including voting and
+officer positions, must be extended to all students as stated in the Kennesaw State
+University Non-Discrimination Statement. Title VI of the Civil Rights Act of 1964 protects
+people from discrimination based on race, color or national origin in programs or activities
+that receive Federal financial assistance. Title IX states that: No person in the United
+States shall, on the basis of sex, be excluded from participation in, be denied the
+benefits of, or be subjected to discrimination under any education program or activity
+receiving Federal financial assistance.
+
+% ==============================================================================
+\section{Bylaws}\label{art:bylaws} % if applicable
+\subsection{Authority of the Bylaws}\label{sec:bylaws-authority}
+The organization may adopt bylaws to govern detailed or secondary policies not contained
+in this constitution. Such bylaws shall carry the authority of the organization, provided
+they do not conflict with this constitution.
+\subsection{Adoption and Amendment}\label{sec:bylaws-amendment}
+Bylaws may be adopted or amended by a majority vote of the active members present at any
+regular meeting, quorum having been established, provided the proposed change has been
+distributed to the membership at least one (1) regular meeting in advance.
+
+% ==============================================================================
+\section{Dissolution}\label{art:dissolution}
+\subsection{Dissolution Procedure}\label{sec:dissolution-procedure}
+The organization may be dissolved by a two-thirds (2/3) vote of the active membership,
+quorum having been established, at a meeting for which the proposed dissolution was
+announced at least two (2) weeks in advance. Upon dissolution, the organization shall
+settle any outstanding debts, and any remaining property, funds, accounts, and online
+or social media assets shall be transferred to the Kennesaw State University Department
+of Student Affairs or donated to a charitable or educational entity as determined by
+the Executive Board in consultation with the advisor.
+
+\end{document}

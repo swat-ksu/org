@@ -1,0 +1,28 @@
+# 1 = essential for the advisor to do,
+# 2 = helpful for the advisor to do,
+# 3 = nice but the advisor doesn't have to do,
+# 4 = prefer the advisor not to do,
+# 5 = the advisor definitely should not do,
+
+level,action
+1,Attend regular meetings of the organization’s officers/executive board.
+1,Attend regular general body meetings of the organization.
+1,Attend programs and events of the organization.
+1,Meet individually with officers or members.
+3,Take an active part in formulating goals for the year.
+3,Check in with organization on progress toward goals.
+1,Speak up during discussion when the advisor has relevant information.
+2,Speak up during discussion when the advisor thinks the group may be making a poor or incomplete decision.
+3,Be quiet during meetings unless called upon.
+4,Initiate discussion when the advisor has an idea or suggestion.
+2,Explain University policy when applicable to discussion.
+5,Plan a training/retreat for officers of the organization.
+1,Facilitate transition between incoming and outgoing officers.
+5,Help officers prepare an agenda for each meeting.
+4,Train group on University policy.
+4,Mediate interpersonal conflicts that may arise between officers/members.
+2,Be included on correspondence for the organization.
+4,Assist in planning events; programs; and initiatives.
+1,Intervene when events or initiatives are not planned in accordance with University policy.
+3,Recommend programs; events; or initiatives.
+3,Maintain records; files; and equipment in the advisor’s office.
