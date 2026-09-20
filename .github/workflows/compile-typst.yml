@@ -1,0 +1,31 @@
+name: Build Typst Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Compile Typst to PDF
+        uses: ammar-ahmed22/compile-typst-action@v1
+        with:
+          source_paths: 'src/constitution.typ src/bylaws.typ'
+          output_paths: 'constitution.pdf bylaws.pdf'
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            constitution.pdf
+            bylaws.pdf
+          generate_release_notes: true
