@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220mm"
+   height="220mm"
+   viewBox="0 0 220 220"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="swat_logo.svg"
+   inkscape:export-filename="swat_logo.png"
+   inkscape:export-xdpi="59.112728"
+   inkscape:export-ydpi="59.112728"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="cm"
+     showguides="false"
+     inkscape:zoom="1"
+     inkscape:cx="220.5"
+     inkscape:cy="487.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="641"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="373.64078"
+       y="414.21124"
+       width="499.27832"
+       height="242.76836"
+       id="rect34" />
+    <rect
+       x="213.32207"
+       y="670.06683"
+       width="471.14075"
+       height="142.65096"
+       id="rect8" />
+    <rect
+       x="123.02008"
+       y="257.8187"
+       width="475.06693"
+       height="255.20123"
+       id="rect5" />
+    <rect
+       x="123.02008"
+       y="257.8187"
+       width="735.50305"
+       height="61.51004"
+       id="rect7" />
+    <rect
+       x="373.64078"
+       y="414.21124"
+       width="499.27832"
+       height="242.76836"
+       id="rect43" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2.6427424,-35.915375)">
+    <rect
+       style="fill:#ffc629;fill-opacity:1;fill-rule:evenodd;stroke-width:0.30935"
+       id="rect11"
+       width="220"
+       height="220"
+       x="-2.6427424"
+       y="35.915375" />
+    <ellipse
+       style="fill:#ffc629;fill-opacity:1;fill-rule:evenodd;stroke-width:0.573614"
+       id="path1"
+       cx="104.66428"
+       cy="145.84526"
+       rx="106.99235"
+       ry="109.48095" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.1738166,0,0,0.18951641,-197.1329,246.39587)"
+       id="text5"
+       style="font-size:26.6667px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#000000"><tspan
+         x="123.01953"
+         y="282.44024"
+         id="tspan12"><tspan
+   style="font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code'"
+   id="tspan11">Kennesaw State University</tspan>
+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.6636px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.451324"
+       x="-152.33818"
+       y="207.37845"
+       id="text6"
+       transform="scale(1.0295853,0.97126481)"><tspan
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.6636px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';stroke-width:0.451324"
+         x="-152.33818"
+         y="207.37845"
+         sodipodi:role="line">SwAT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.2746398,0,0,0.27633851,-270.05664,93.003082)"
+       id="text7"
+       style="font-size:48px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#000000"><tspan
+         x="123.01953"
+         y="302.13769"
+         id="tspan14"><tspan
+   style="font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code'"
+   id="tspan13">Software Acceleration Team</tspan>
+</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#000000" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -178.94603,62.137565 78.59604,59.742785 -39.91013,-11.87511 z"
+       id="path20" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -97.779084,123.83913 -41.134376,-11.99753 -44.19497,29.01443 51.29554,-19.71022 z"
+       id="path21" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -131.56804,122.61489 23.26051,1.83636 -55.2131,10.16117 z"
+       id="path23" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -148.58494,102.0477 7.59027,9.05936 -18.97568,13.58903 12.48722,-13.83388 z"
+       id="path33" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-205.33612,-13.504398)"
+       id="text34"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect34);display:inline;fill:#000000"><tspan
+         x="373.64062"
+         y="537.31987"
+         id="tspan16"><tspan
+           style="font-family:'Eras Medium ITC';-inkscape-font-specification:'Eras Medium ITC'"
+           id="tspan15">SwAT</tspan></tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -174.53877,139.01967 53.98887,-9.67147 110.05894,0.24484 z"
+       id="path37" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.32302034,0,0,0.33114687,-299.69746,97.384671)"
+       id="text42"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect43);display:inline;fill:#000000"><tspan
+         x="373.64062"
+         y="537.31987"
+         id="tspan19"><tspan
+           style="font-family:Verdana;-inkscape-font-specification:Verdana"
+           id="tspan17">S</tspan><tspan
+           style="font-family:Verdana;-inkscape-font-specification:Verdana"
+           id="tspan18">wAT</tspan></tspan></text>
+    <g
+       id="g11"
+       transform="matrix(1.1589615,0,0,1.1758214,-14.147407,-24.045574)">
+      <path
+         style="fill:#000000;stroke-width:0.490605"
+         d="M 55.980995,82.526749 175.63321,169.27216 105.77129,146.39167 Z"
+         id="path43"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;stroke-width:0.490605"
+         d="M 180.27295,173.05731 105,148.5 21.879125,200.11756 117.60565,166.20306 Z"
+         id="path44" />
+      <path
+         style="fill:#000000;stroke-width:0.490605"
+         d="m 117.97874,168.95089 42.83041,4.67639 -102.444535,15.92776 z"
+         id="path45" />
+      <path
+         style="fill:#000000;stroke-width:0.490605"
+         d="m 87.458455,126.19195 15.346865,20.55276 -37.356615,24.54394 23.7879,-25.07521 z"
+         id="path46"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <path
+       style="fill:#000000;stroke-width:0.198866"
+       d="m -220.52781,228.82721 51.62584,34.19799 -27.80718,-7.84572 z"
+       id="path47"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke-width:0.198866"
+       d="m -166.86464,264.53526 -29.9529,-8.41177 -26.45256,25.08165 32.61188,-17.74026 z"
+       id="path48" />
+    <path
+       style="fill:#000000;stroke-width:0.198866"
+       d="m -190.28884,264.65295 16.2612,0.72799 -36.61383,10.09449 z"
+       id="path49" />
+    <path
+       style="fill:#000000;stroke-width:0.198866"
+       d="m -205.1929,246.92321 7.41461,8.50132 -11.77524,11.85978 6.70361,-11.67561 z"
+       id="path50"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;stroke-width:0.264583"
+       d="m -222.56636,281.81944 16.64963,-4.77452 133.441875,0.97939 z"
+       id="path52"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
