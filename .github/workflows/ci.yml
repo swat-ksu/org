@@ -1,0 +1,55 @@
+name: Build Typst Release
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - "v*"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: "0.15.1"
+
+      - name: Compile constitution
+        run: typst compile src/constitution.typ constitution.pdf
+
+      - name: Compile bylaws
+        run: typst compile src/bylaws.typ bylaws.pdf
+
+      - name: Upload PDFs as workflow artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: typst-pdfs
+          path: |
+            constitution.pdf
+            bylaws.pdf
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Create GitHub Release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v3
+        with:
+          generate_release_notes: true
+          files: |
+            constitution.pdf
+            bylaws.pdf
