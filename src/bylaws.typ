@@ -126,7 +126,7 @@ A member may contribute only work that the member has the right to contribute. M
 
 == Client and Sponsored Work
 
-Any project undertaken for an external client or sponsor shall be governed by a written agreement reviewed by the advisor before work begins, and the terms of that agreement govern ownership and licensing for that project. No officer or member may sign an agreement purporting to bind Kennesaw State University.
+Any project undertaken for an external client or sponsor shall be governed by a written agreement that, before work begins, has been reviewed by the advisor and has received any review and authorization required by University policy. Advisor review alone does not authorize the organization to enter an agreement. The terms of that agreement govern ownership and licensing for that project. No officer or member may sign an agreement purporting to bind Kennesaw State University.
 
 == Personal Projects
 

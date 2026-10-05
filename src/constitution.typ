@@ -60,7 +60,9 @@ Active members are entitled to vote in elections and on organization business, t
 
 == Removal of Members
 
-A member may be removed for conduct that materially harms the organization or for repeated failure to meet the responsibilities of membership. Removal requires written notice to the member, an opportunity for the member to respond before the Executive Board, and a two-thirds (2/3) vote of the Executive Board. A removed member may appeal to the general membership, where a majority vote of active members present, quorum having been established, is final.
+A member may be removed for conduct that materially harms the organization or for repeated failure to meet the responsibilities of membership. Removal requires written notice to the member, an opportunity for the member to respond before the Executive Board, and a two-thirds (2/3) vote of the Executive Board members present and voting. Quorum for a member removal vote shall be two-thirds (2/3) of the sitting members of the Executive Board, not counting any Executive Board member who is the subject of the removal, who shall not vote. The member shall be notified in writing of the Executive Board's decision.
+
+A removed member may appeal the decision by submitting a written appeal to the Secretary within seven (7) calendar days of receiving written notice of the decision. The appeal shall be heard by the general membership at the next regular meeting, where a majority vote of active members present, quorum having been established, is final. Executive Board members who voted on the original removal shall not vote on the appeal. The member shall be notified in writing of the final decision.
 
 == Alumni
 
@@ -95,7 +97,9 @@ The officers of this organization, who together constitute the Executive Board, 
 
 == Eligibility and Concurrent Roles
 
-To be eligible to run for office, a candidate must have been an active member of the organization for at least one (1) semester prior to the election and must be in good standing with the University. A member may hold more than one officer position, and may hold officer, committee, and project roles at the same time. The offices of President and Treasurer shall not be held by the same member. The Executive Board shall include at least four (4) distinct members.
+To be eligible to run for office, a candidate must have been an active member of the organization for at least one (1) semester prior to the election and must be in good standing with the University. The prior-semester requirement does not apply to the founding officers who form the organization's initial Executive Board; founding officers must be in good standing with the University and shall serve until officers are elected at the first regular election.
+
+The offices of President, Treasurer, and Vice President (who serves as Reservation Delegate) shall be held by three (3) separate students, and no member may hold more than one of these three offices at the same time. Subject to this requirement, a member may hold more than one officer position, and may hold officer, committee, and project roles at the same time. The Executive Board shall include at least four (4) distinct members.
 
 == Terms
 
@@ -103,7 +107,9 @@ Officers shall serve a term of one (1) year, beginning at the formal transition 
 
 == Removal of Officers
 
-An officer may be removed for failure to perform the duties of their office or for conduct that materially harms the organization. Removal requires a petition signed by at least one-third (1/3) of active members or a motion by the Executive Board, written notice to the officer, an opportunity for the officer to respond, and a two-thirds (2/3) vote of the active members present, quorum having been established.
+An officer may be removed for failure to perform the duties of their office or for conduct that materially harms the organization. Removal requires a petition signed by at least one-third (1/3) of active members or a motion by the Executive Board, written notice to the officer, an opportunity for the officer to respond, and a two-thirds (2/3) vote of the active members present, quorum having been established. The officer under review shall not vote on their own removal. The Secretary shall record in the minutes the members present for the removal vote, and the officer shall be notified in writing of the decision.
+
+A removed officer may appeal the decision by submitting a written appeal to the Secretary within seven (7) calendar days of receiving written notice of the decision. The appeal shall be decided by an Appeals Panel of three (3) active members selected by random draw from among active members who did not sign the petition, did not make or second the motion, and were not present for the removal vote. If fewer than three (3) such members are available, the Panel shall consist of all who are. The Panel shall hear from the officer and from a representative of those who initiated the removal, and shall decide the appeal by majority vote within fourteen (14) calendar days of its receipt. The Panel's decision is final, and the officer shall be notified of it in writing.
 
 = Elections // Required
 
@@ -113,7 +119,7 @@ Election of officers shall be held annually in April. The Secretary shall announ
 
 == Vacancies
 
-Should an office become vacant mid-term, the Executive Board shall appoint an interim officer, subject to ratification by a majority vote of active members present at the next regular meeting. A vacancy in the office of President shall be filled by the Vice President for the remainder of the term.
+Should an office become vacant mid-term, the Executive Board shall appoint an interim officer, subject to ratification by a majority vote of active members present at the next regular meeting. A vacancy in the office of President shall be filled by the Vice President for the remainder of the term, and the resulting vacancy in the office of Vice President shall be filled as provided in this section.
 
 == Voting Procedures
 
@@ -137,7 +143,7 @@ The most recent edition of _Robert's Rules of Order_ shall govern the meetings o
 
 == Responsibilities
 
-There shall be at least one (1) full-time Kennesaw State University faculty or staff member who shall serve as an advisor to the organization. The advisor shall provide guidance and institutional continuity, assist with required University paperwork, and attend meetings and events when able. Consistent with the RSO Manual, the advisor serves as a guide and may not make decisions on behalf of the organization.
+There shall be at least one (1) full-time Kennesaw State University faculty or staff member who shall serve as an advisor to the organization. The advisor shall provide guidance and institutional continuity, assist with required University paperwork, and attend meetings and events when able. Consistent with the RSO Manual, the advisor serves as a guide and may not make decisions on behalf of the organization. The advisor is non-voting and shall not vote on any matter before the organization, the Executive Board, or any committee or panel.
 
 == Selection and Term
 
@@ -183,7 +189,7 @@ Any contributor may fork, clone, republish, relicense their own contributions, o
 
 == Client Work and University Policy
 
-Work performed for an external client or sponsor is governed by a written agreement reviewed by the advisor before work begins, and the terms of that agreement supersede Sections #num[@sec-ip-ownership] through #num[@sec-ip-fork] for that project. Nothing in this Article shall be construed to override the intellectual property policies of Kennesaw State University or the Board of Regents of the University System of Georgia, which take precedence where they apply.
+Work performed for an external client or sponsor is governed by a written agreement. Before any work begins, the agreement must be reviewed by the advisor and must receive any review and authorization required by University policy. Advisor review alone does not authorize the organization to enter an agreement, and no officer or member may sign an agreement purporting to bind Kennesaw State University. Once so authorized, the terms of that agreement supersede Sections #num[@sec-ip-ownership] through #num[@sec-ip-fork] for that project. Nothing in this Article shall be construed to override the intellectual property policies of Kennesaw State University or the Board of Regents of the University System of Georgia, which take precedence where they apply.
 
 = Constitutional Amendments // Required
 
